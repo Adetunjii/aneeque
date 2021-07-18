@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+@import "./assets/scss/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.text-success {
+  color: #6fc0a3;
+}
+
+.text-danger {
+  color: #ff7d94;
+}
+
+.text-primary {
+  color: $primary-color;
+}
